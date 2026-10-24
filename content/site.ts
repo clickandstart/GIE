@@ -6,7 +6,7 @@ export const site = {
   description:
     "GIE Holding is an Istanbul-based international group active in commodity trading, food raw materials, construction and logistics, with new ventures in commerce and mobility in development.",
   email: "fuat@fuatgursel.com",
-  url: "https://www.gurselimportexport.com",
+  url: "https://gie-inky.vercel.app",
   address: {
     lines: [
       "Tomtom Mahallesi",
