@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Markets",
   description:
     "Precious and industrial metals, energy, wood and food raw materials traded by GIE: sugar, oils, grains, rice, coffee, proteins and ferrous and non-ferrous metals.",
+  alternates: { canonical: "/markets" },
 };
 
 export default function MarketsPage() {

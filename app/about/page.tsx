@@ -3,12 +3,13 @@ import Image from "next/image";
 import { PageHero } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
 import { CtaBand } from "@/components/CtaBand";
-import { timeline, values } from "@/content/site";
+import { team, timeline, values } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "The company",
   description:
     "From a family theatre business in 1938 Istanbul to an international trading house in commodities, food raw materials, construction and logistics.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {
@@ -190,6 +191,43 @@ export default function AboutPage() {
                 <p className="mt-3 text-[0.875rem] leading-relaxed text-ink/65">{value.text}</p>
               </Reveal>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-paper py-20 md:py-28">
+        <div className="shell grid gap-12 lg:grid-cols-12 lg:gap-16">
+          <Reveal className="lg:col-span-4">
+            <p className="eyebrow text-teal">People</p>
+            <h2 className="display-md mt-6 max-w-[16ch]">The people who carry the work.</h2>
+            <p className="mt-6 max-w-[34ch] text-[0.9rem] leading-relaxed text-ink/60">
+              Responsibility for a market sits with someone who knows it first hand — from the first
+              enquiry to the delivered cargo.
+            </p>
+          </Reveal>
+
+          <div className="lg:col-span-7 lg:col-start-6">
+            <ul className="divide-y divide-line border-y border-line">
+              {team.map((member) => (
+                <Reveal as="li" key={member.name} className="grid gap-5 py-7 sm:grid-cols-[3rem_1fr]">
+                  <span
+                    aria-hidden="true"
+                    className="flex h-12 w-12 items-center justify-center border border-line font-display text-[0.7rem] tracking-[0.16em] text-teal"
+                  >
+                    {member.initials}
+                  </span>
+                  <div>
+                    <h3 className="font-display text-lg font-medium tracking-tight">{member.name}</h3>
+                    <p className="mt-1 text-[0.72rem] uppercase tracking-[0.12em] text-ink/45">
+                      {member.role}
+                    </p>
+                    <p className="mt-3 max-w-[52ch] text-[0.9rem] leading-relaxed text-ink/65">
+                      {member.text}
+                    </p>
+                  </div>
+                </Reveal>
+              ))}
+            </ul>
           </div>
         </div>
       </section>

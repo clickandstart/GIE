@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "The group",
   description:
     "GIE Holding: the structure behind GIE — four operating divisions in commodities, construction and logistics, and new ventures in commerce and automotive in development.",
+  alternates: { canonical: "/group" },
 };
 
 export default function GroupPage() {

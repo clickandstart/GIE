@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Insights",
   description:
     "Market notes from GIE on commodity specifications, metals inspection and the documentation that moves a cargo.",
+  alternates: { canonical: "/insights" },
 };
 
 export default function InsightsPage() {

@@ -43,7 +43,7 @@ corretta o rimossa. La colonna "Fonte" indica dove compare nel PDF *Company Prof
 | Telefono +30 690 662 5021 | "Greece" | p. 16 | Prefisso greco, città non indicata |
 | Sede | Tomtom Mahallesi, İstiklal Caddesi, Beyoğlu No. 187 K2, Istanbul | p. 16 | Verificare formato postale e CAP, assente nel PDF |
 | Banche | 9 istituti, incluso "Half Bank" | p. 16 | Quasi certamente **Halk Bank**: confermare. Nessun IBAN è pubblicato |
-| Dominio | `https://www.gurselimportexport.com` | segnaposto | Va sostituito in `content/site.ts` |
+| Dominio | `https://www.gie-holding.com` | — | Impostato in `site.url` (`content/site.ts`), alimenta canonical, sitemap e Open Graph |
 
 ## Immagini
 

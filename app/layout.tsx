@@ -35,6 +35,7 @@ export const metadata: Metadata = {
     template: "%s | GIE Holding",
   },
   description: site.description,
+  alternates: { canonical: "/" },
   applicationName: site.name,
   keywords: [
     "GIE Holding",

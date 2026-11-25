@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Divisions",
   description:
     "Commodities and metals, food raw materials, construction and logistics: the four operating divisions of GIE Gürsel Import Export.",
+  alternates: { canonical: "/divisions" },
 };
 
 export default function DivisionsPage() {

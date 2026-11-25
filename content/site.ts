@@ -6,7 +6,7 @@ export const site = {
   description:
     "GIE Holding is an Istanbul-based international group active in commodity trading, food raw materials, construction and logistics, with new ventures in commerce and mobility in development.",
   email: "fuat@fuatgursel.com",
-  url: "https://gie-inky.vercel.app",
+  url: "https://www.gie-holding.com",
   address: {
     lines: [
       "Tomtom Mahallesi",
@@ -431,6 +431,22 @@ export const groupUnits: GroupUnit[] = [
     name: "Automotive",
     field: "New brand · manufacturing in Türkiye",
     text: "A new automotive brand linked to a manufacturing project in Türkiye. The brand identity, product range and industrial plan are in preparation and will be announced separately.",
+  },
+];
+
+export type TeamMember = {
+  name: string;
+  initials: string;
+  role: string;
+  text: string;
+};
+
+export const team: TeamMember[] = [
+  {
+    name: "Mahmoud Alomar",
+    initials: "MA",
+    role: "Projects manager · Middle East",
+    text: "Years of experience in project management across the Middle East, and a major contribution to GIE Holding Corporation.",
   },
 ];
 

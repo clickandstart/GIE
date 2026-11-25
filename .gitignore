@@ -31,3 +31,9 @@ yarn-error.log*
 
 # typescript
 .tsbuildinfo
+
+.vercel
+.env*
+
+# vercel account tokens (local only)
+.vercel-accounts/

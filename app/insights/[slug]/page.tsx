@@ -27,6 +27,7 @@ export async function generateMetadata({
   return {
     title: insight.title,
     description: insight.excerpt,
+    alternates: { canonical: `/insights/${insight.slug}` },
     openGraph: {
       type: "article",
       title: insight.title,

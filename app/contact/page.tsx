@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Contact GIE Gürsel Import Export: commercial office, registered office in Istanbul, product enquiries and banking partners.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

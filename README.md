@@ -51,8 +51,8 @@ divisioni, gruppo e articoli sono centralizzati lì.
 
 ### Da aggiornare prima della pubblicazione
 
-- `site.url` in `content/site.ts` (attualmente `https://www.gurselimportexport.com`): deve
-  corrispondere al dominio reale, perché alimenta canonical, sitemap e Open Graph.
+- `site.url` in `content/site.ts` vale `https://www.gie-holding.com` e alimenta canonical, sitemap
+  e Open Graph: se il dominio cambia, va aggiornato lì.
 - `site.banks`: il PDF riporta "HALF BANK"; verificare se il nome corretto sia Halk Bank.
 - **`CONTENT-REVIEW.md`**: elenco puntuale di tutte le affermazioni pubblicate da confermare
   con il cliente (date, claim commerciali, telefoni, licenze delle immagini).
